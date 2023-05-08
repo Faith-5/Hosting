@@ -1,0 +1,340 @@
+@media only screen and (max-width: 1200px) {
+    .blogDesc {
+        width: 80%;
+        padding: 39px 20px 30px;
+    }
+    .blogReaction {
+        margin: 27px 7px;
+        padding: 7px;
+    }
+}@media only screen and (max-width: 1090px) {
+    .blogDesc {
+        padding: 39px 20px 30px;
+    }
+    .blogReaction {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        width: 230px;
+        height: 100vh;
+        transition: .4s ease-in-out;
+        background-color: rgb(40, 2, 40);
+        box-shadow: 2px 0 20px 0 rgba(0,0,0,0.05);
+    }
+    #nav-check:checked ~ .navbar {
+        left: 0;
+    }
+    .navbar .logo {
+        display: block;
+        padding: 15px;
+    }
+    .navbar .logo i {
+        background-color: white;
+    }
+     .navbar {
+        display: block;
+        position: absolute;
+    }
+    .navbar li {
+        padding: 0 15px;
+        margin: 10px 20px;
+        padding-bottom: 10px;
+    }
+    .navbar a.active {
+        border-bottom: 3px solid white;
+    }
+    .navbar li a:hover {
+        color: white;
+        border-bottom: 3px solid white;
+    }
+    .hamburger {
+        display: block;
+    }
+    .products {
+        width: 270px;
+    }
+    .feature {
+        width: 30%;
+    }
+    .appImg {
+        float: right;
+        margin-right: 1em;
+    }
+    .appDesc {
+        padding: 15px;
+    }
+    .blogReaction {
+        margin: 27px 7px;
+        padding: 20px 4px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .feature {
+        width: 50%;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .serviceImg,
+    .service {
+        width: 80%;
+    }
+    .appDesc {
+        padding: 12px;
+    }
+    .blog {
+        width: 32%;
+    }
+    .blogReaction {
+        margin: 20px 3px 27px 17px;
+        padding: 20px 3px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .card {
+        justify-content: space-around;
+    }
+    .products {
+        margin: auto;
+    }
+    .appImg {
+        margin-top: 40px;
+        width: 80%;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footerMenu {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .rightInput,
+    .rightBtn {
+        width: 320px
+    }
+}
+@media only screen and (max-width: 870px) {
+    body {
+        overflow-x: hidden;
+    }
+    .card {
+        flex-direction: column;
+        height: 100%;
+    }
+    .products {
+        width: 300px;
+        margin: 1em;
+        height: 57vh;
+    }
+    .serviceImg,
+    .service {
+        width: 90%;
+    }
+    .blogs {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .blog {
+        width: 46%;
+    }
+    .blogReaction {
+        position: relative;
+        margin: 90px 3px 27px 8px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .note p.domain {
+        font-size: 38px;
+    }
+    .feature {
+        width: 400px;
+    }
+    .serviceHeader {
+        font-size: 23px;
+    }
+    .appImg {
+        float: left;
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .appImg {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .apps {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main {
+        width: 80%;
+    }
+    .appDesc {
+        padding: 22px;
+    }
+    .appImg {
+        width: 70%;
+    }
+    .blogReaction {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .blogDesc {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .heading .plan {
+        font-size: 35px;
+        text-align: center;
+    }
+    .heading p {
+        text-align: center;
+    }
+    .features {
+        flex-direction: column;
+    }
+    .feature {
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .blogReaction {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .feature {
+        width: 54%;
+    }
+    .serviceHeader {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .blogs {
+        justify-content: center;
+    }
+    .blog {
+        width: 70%;
+    }
+    .blogReaction {
+        font-size: 17px;
+        text-align: center;
+    }
+    .footerMenu {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .note p.domain {
+        font-size: 28px;
+    }
+    .logs {
+        display: none;
+    }
+    .search {
+        width: 70%;
+    }
+    .feature {
+        width: 70%;
+    }
+    .serviceHeader {
+        font-size: 17px;
+    }
+    .serviceImg,
+    .service {
+        width: 100%;
+    }
+    .service {
+        margin-left: 2em;
+    }
+    .appDesc {
+        padding: 15px;
+    }
+    .exp {
+        margin-left: 30px;
+    }
+    .expImg {
+        width: 22%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .expImg {
+        width: 28%;
+        padding-bottom: 10px;
+    }
+    .blog {
+        width: 90%;
+    }
+    .blogReaction {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 425px) { 
+    .note p {
+        color: green;
+        padding: 10px;
+        text-align: center;
+    }
+    .note p.domain {
+        color: white;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .search {
+        width: 80%;
+    }
+    .feature {
+        width: 90%;
+    }
+    .serviceHeader {
+        font-size: 15px;
+    }
+    .apps {
+        margin-left: 0;
+    }
+    .app {
+        width: 100%;
+        margin-left: 0;
+    }
+    .expImg {
+        width: 28%;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .products {
+        margin: 1em 15px;
+    }
+    .exp {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .exp {
+        margin-left: 25px;
+    }
+    .expImg {
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 364px) {
+    .blogReaction {
+        font-size: 13px;
+    }
+}
